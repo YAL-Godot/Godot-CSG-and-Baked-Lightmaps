@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dl5svw3owhqeq"]
+
+[ext_resource type="Script" path="res://addons/csgtomeshinstance/plugin_button.gd" id="1"]
+
+[node name="PluginButton" type="Button"]
+shortcut_in_tooltip = false
+text = "CSG to MeshInstance"
+script = ExtResource("1")
+
+[connection signal="pressed" from="." to="." method="_on_PluginButton_pressed"]

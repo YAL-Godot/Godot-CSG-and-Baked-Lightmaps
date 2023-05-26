@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://buam040ep2skx"]
+
+[ext_resource type="Script" path="res://addons/csgtomeshinstance/plugin_button_hide.gd" id="1_dsnpe"]
+
+[node name="PluginButtonHide" type="Button"]
+shortcut_in_tooltip = false
+text = "Edit"
+script = ExtResource("1_dsnpe")
+
+[connection signal="pressed" from="." to="." method="_on_PluginButton_pressed"]
